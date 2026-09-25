@@ -7,11 +7,12 @@ The project consists in two parts. The first part is EDA (Exploratory Data Analy
 
 The results from the below table show that the most efficient model overall applied on this dataset is CatBoost, although there are no major differences between models. F1-Scores around 0.53-0.58 show that nearly half of churn predictions are wrong, either missing customers who actually leave or flagging customers who stay. AUC-ROC values (0.68-0.71) confirm only moderate ability to distinguish between the two groups, suggesting these models would need further tuning before being reliable for real business decisions.
 
-  Model	            Accuracy	F1-Score	AUC-ROC
-0	Decision Tree	    0.729922	0.529703	0.679610
-1	Random Forest	    0.780384	0.546256	0.690096
-2	XGBoost	          0.773987	0.567935	0.705356
-3	CatBoost	        0.786780	0.582173	0.714068
+|     Model     | Accuracy | F1-Score | AUC-ROC |
+|-------        |----------|----------|---------|
+| Decision Tree |  0.7299  |  0.5297  |  0.6796 |
+| Random Forest |  0.7804  |  0.5463  | 0.6909  |
+|    XGBoost    |  0.7740  |  0.5679  | 0.7054  |
+|    CatBoost   |  0.7868  |  0.5822  | 0.7141  |
 
 
 
